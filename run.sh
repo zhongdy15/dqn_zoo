@@ -27,10 +27,10 @@
 # * Verify with: `docker run --gpus all --rm nvidia/cuda:11.1-base nvidia-smi`.
 
 # To remove all containers run:
-# `docker rm -vf $(docker ps -a -q)`
+docker rm -vf $(docker ps -a -q)`
 
 # To remove all images run:
-# `docker rmi -f $(docker images -a -q)`
+docker rmi -f $(docker images -a -q)`
 
 set -u -e  # Check for uninitialized variables and exit if any command fails.
 
